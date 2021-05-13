@@ -9,7 +9,7 @@ body {
 }
 
 header img {
-  width: 30%;
+  width: 23%;
 }
 
 h2{
@@ -54,7 +54,7 @@ section.menu ul {
  nav ul {
   padding: 0.5em;
   margin-bottom: 1.5em;
-  word-spacing: 1em;
+  word-spacing: 0.8em;
   font-size: 1.5em;
  }
  nav ul li {
