@@ -1,0 +1,117 @@
+/*CSS document*/
+@import url("https://use.typekit.net/gtp2ilt.css");
+
+img {
+  width: 100%;
+}
+body {
+  font-family: sofia-pro, sans-serif;
+  background-color: #F5F5F5;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 1em 0em 2em 0em;
+    padding: 0;
+}
+
+h2 {
+  font-family: baskerville-urw, serif;
+  font-size: 2.3em;
+  line-height: 1.2em;
+  color: #847e89;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: baskerville-urw, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  color: #7392b7;
+  line-height: 1.2em;
+  margin-bottom: 0em;
+
+}
+
+main {
+  margin: 0em;
+}
+
+main a {
+  text-decoration: none;
+  color: #2b2929;
+}
+
+main a:hover{
+  color: #6e6b6b;
+
+}
+
+aside a{
+  text-decoration: none;
+  color: #000000;
+}
+
+aside a:hover{
+  color: #6e6b6b;
+}
+
+
+/* article {
+
+} */
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.story {
+  margin: 0em 0em 3em 0em;
+}
+
+/*nav bar*/
+nav ul {
+ padding: 0;
+ margin-bottom: 1.7em;
+ word-spacing: 1em;
+ font-size: 1.2em;
+}
+
+nav ul li {
+ display: inline;
+ list-style-type: none;
+ font-family: sofia-pro, sans-serif;
+ font-weight: 700;
+ font-style: normal;
+ text-transform: uppercase;
+ letter-spacing: .07em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #545252;
+}
+
+nav ul li a:hover{
+  color: #c2d3cd;
+}
+
+
+/*home page*/
+header {
+  text-align; left;
+}
+h1 {
+  width: 30%;
+}
