@@ -146,50 +146,50 @@ article {
 	max-width: 75ch;
 }
 
-div.container-photos{
-    max-width: 65em;
-    margin: auto;
-    padding: 1em;
+div.container-photos {
+	max-width: 65em;
+	margin: auto;
+	padding: 1em;
 }
 
 main.photos {
 	width: 100%;
 	margin: auto;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: calc(66% + 3em);
+	position: relative;
+	overflow: hidden;
+	padding-bottom: calc(66% + 3em);
 }
 
-figure.gallery{
-    margin: auto;
-    width: calc(100%-2em);
-    position: absolute;
-    opacity: 0;
-    transition: opacity .5s;
+figure.gallery {
+	margin: auto;
+	width: calc(100%-2em);
+	position: absolute;
+	opacity: 0;
+	transition: opacity .5s;
 }
 
-
-input:nth-of-type(1):checked ~ main.photos figure.gallery:nth-of-type(1),
-input:nth-of-type(2):checked ~ main.photos figure.gallery:nth-of-type(2),
-input:nth-of-type(3):checked ~ main.photos figure.gallery:nth-of-type(3),
-input:nth-of-type(4):checked ~ main.photos figure.gallery:nth-of-type(4)
-input:nth-of-type(5):checked ~ main.photos figure.gallery:nth-of-type(5),
-input:nth-of-type(6):checked ~ main.photos figure.gallery:nth-of-type(6),
-input:nth-of-type(7):checked ~ main.photos figure.gallery:nth-of-type(7),
-input:nth-of-type(8):checked ~ main.photos figure.gallery:nth-of-type(8){
+input:nth-of-type(1):checked~main.photos figure.gallery:nth-of-type(1),
+input:nth-of-type(2):checked~main.photos figure.gallery:nth-of-type(2),
+input:nth-of-type(3):checked~main.photos figure.gallery:nth-of-type(3),
+input:nth-of-type(4):checked~main.photos figure.gallery:nth-of-type(4),
+input:nth-of-type(5):checked~main.photos figure.gallery:nth-of-type(5),
+input:nth-of-type(6):checked~main.photos figure.gallery:nth-of-type(6),
+input:nth-of-type(7):checked~main.photos figure.gallery:nth-of-type(7),
+input:nth-of-type(8):checked~main.photos figure.gallery:nth-of-type(8) {
 	left: 0;
-    opacity: 1;
+	opacity: 1;
 }
 
 nav.nav-photos {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: .5em;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: .5em;
 }
 
 input {
-    display: none;
+	display: none;
 }
+
 
 /*responsive screen size */
 
@@ -199,7 +199,6 @@ input {
 		grid-template-columns: 3fr 1fr;
 		grid-gap: 0 2.2em;
 	}
-
 	div.container-stories {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -219,9 +218,12 @@ input {
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 0 2.2em;
 	}
+
 	aside {
 		grid-column: 2/3;
 	}
+
+		/*main story photo on home */
 	section.mainstory {
 		grid-column: 2/4;
 		grid-row: 1/3;
