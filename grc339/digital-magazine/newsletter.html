@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Asian Flavors</title>
+      <!-- ★ Please include a proper title.-->
+      <!-- Helpful meta tags to fight GitHub aggresive caching-->
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+   </head>
+   <body>
+      <div class="container-form">
+         <header>
+            <h1>
+               <a href="index.html"><img src="logo.png" alt="Logo of Asian Flavor."/></a>
+            </h1>
+            <!-- ★ Please use a proper alt attribute.-->
+            <nav>
+               <ul>
+                  <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                  <li>
+                     <a href="#">About</a>
+                  </li>
+                  <li>
+                     <a href="#">Chefs</a>
+                  </li>
+                  <li>
+                     <a href="#">Recipe</a>
+                  </li>
+                  <li>
+                     <a href="#">Restaurant</a>
+                  </li>
+                  <li>
+                     <a href="#">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main class="newsletter">
+         <form>
+            <section class="personal-info">
+               <h2>Personal information</h2>
+               <ul>
+                  <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                  <li><label for="email">Email:</label> <input type="text" name="email" id="email" placeholder="confirmation email" /></li>
+               </ul>
+            </section>
+            <section class="form">
+               <h2>Newsletter Options</h2>
+               <ul>
+                  <li><input type="checkbox" id="restaurant-recommendations" value="restaurant-recommendations" /> <label for="restaurant-recommendations">Restaurant Recommendations</label></li>
+                  <li><input type="checkbox" id="recipe" value="recipe" /> <label for="recipe">Recipe</label></li>
+                  <li><input type="checkbox" id="monthly-updates" value="monthly-updates" /> <label for="monthly-updates">Monthly Updates</label></li>
+               </ul>
+            </section>
+            <section><label for="notes">Let us know if you have any questions or concerns.</label><textarea id="notes" name="notes"></textarea></section>
+            <section>
+               <button type="order">Submit</button>
+            </section>
+         </form>
+         <footer>
+            <p> © 2021 Asian Flavors. All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>
