@@ -197,7 +197,7 @@ input.gallery-photos {
 }
 
 
-/* form */
+/* newsletter form */
 
 /* main.newsletter {
 	width: 100%;
@@ -206,6 +206,13 @@ input.gallery-photos {
 }
  */
 
+main.newsletter h2 {
+    margin-bottom: 0.5em;
+}
+
+section p {
+    margin-top: 0;
+}
 
 textarea {
 	box-sizing: border-box;
@@ -227,6 +234,22 @@ button {
 	margin-bottom: 3em;
 }
 
+form{
+
+	margin: auto;
+}
+
+section.personal-info ul li{
+	display: flex;
+}
+
+section.personal-info ul li label {
+	flex: 0 0 8em;
+}
+
+section.personal-info ul li input {
+	flex: 1 0 24em;
+}
 /*responsive screen size */
 
 @media screen and (min-width: 60em) {
@@ -249,16 +272,19 @@ button {
 	header img {
 		max-width: 60%;
 	}
-	main.newsletter {
-		grid: none;
-	}
 
+	
 	main {
 		grid-column: 1/2;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 0 2.2em;
 	}
+
+	main.newsletter {
+		display: block;
+	}
+
 	aside {
 		grid-column: 2/3;
 	}
